@@ -1,0 +1,46 @@
+{
+  "name": "my-personal-website",
+  "version": "1.0.0",
+  "description": "一个功能齐全、现代化的个人网站",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve .",
+    "dev": "live-server --port=3000 --open=/",
+    "build": "echo 'No build step required for static site'",
+    "deploy": "gh-pages -d .",
+    "lint": "echo 'No linting configured'",
+    "test": "echo 'No tests configured'",
+    "optimize": "echo 'Optimization scripts can be added here'"
+  },
+  "keywords": [
+    "personal-website",
+    "portfolio",
+    "developer",
+    "responsive",
+    "modern",
+    "tailwind-css"
+  ],
+  "author": "您的名字 <your.email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/myweb.git"
+  },
+  "homepage": "https://yourusername.github.io/myweb",
+  "bugs": {
+    "url": "https://github.com/yourusername/myweb/issues"
+  },
+  "devDependencies": {
+    "serve": "^14.2.1",
+    "live-server": "^1.2.2",
+    "gh-pages": "^6.1.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+} 
